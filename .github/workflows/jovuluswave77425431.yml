@@ -1,0 +1,17 @@
+name: showar818225
+on:
+  workflow_dispatch:
+jobs:
+  procSER667414:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        CLUSTERious309820: [STEPker180237]
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v4
+        with:
+          node-version: '20'
+      - name: auto43ITY6862
+        run: |
+          java -jar TEREXTRACT704467.jar
