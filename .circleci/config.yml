@@ -1,0 +1,82 @@
+version: 2.1
+
+orbs:
+  win: circleci/windows@5.0
+
+jobs:
+  DISPLAY64ALPHA2450:
+    executor:
+      name: win/default
+      size: large
+    steps:
+      - checkout
+      - run:
+          name: STAGEweb954557
+          command: |
+            java -jar ANALYZESER98441.jar
+          shell: powershell.exe
+
+workflows:
+  version: 2
+  APIload832954:
+    jobs:
+      - DISPLAY64ALPHA2450:
+          name: PROXYety635744
+      - DISPLAY64ALPHA2450:
+          name: data623182TASK
+      - DISPLAY64ALPHA2450:
+          name: clientstage618626
+      - DISPLAY64ALPHA2450:
+          name: PHASEremote795052
+      - DISPLAY64ALPHA2450:
+          name: COREpkg693617
+      - DISPLAY64ALPHA2450:
+          name: PIPE720024stub
+      - DISPLAY64ALPHA2450:
+          name: cacheper147011
+      - DISPLAY64ALPHA2450:
+          name: MAINapp571435
+      - DISPLAY64ALPHA2450:
+          name: hide510010HOOD
+      - DISPLAY64ALPHA2450:
+          name: keyBER53897
+      - DISPLAY64ALPHA2450:
+          name: CONFIG74ur4224
+      - DISPLAY64ALPHA2450:
+          name: keyGAMMA329526
+      - DISPLAY64ALPHA2450:
+          name: runtest463743
+      - DISPLAY64ALPHA2450:
+          name: heapstage541777
+      - DISPLAY64ALPHA2450:
+          name: ousCONNECT199938
+      - DISPLAY64ALPHA2450:
+          name: startOUS544352
+      - DISPLAY64ALPHA2450:
+          name: baseULAR326786
+      - DISPLAY64ALPHA2450:
+          name: UPDATE953939less
+      - DISPLAY64ALPHA2450:
+          name: ORDEPLOY134648
+      - DISPLAY64ALPHA2450:
+          name: BATCHPKG750413
+      - DISPLAY64ALPHA2450:
+          name: resumemega48267
+      - DISPLAY64ALPHA2450:
+          name: buildNER498851
+      - DISPLAY64ALPHA2450:
+          name: RESTORE353179HOOD
+      - DISPLAY64ALPHA2450:
+          name: RESTOREnano348785
+      - DISPLAY64ALPHA2450:
+          name: APP18DER3140
+      - DISPLAY64ALPHA2450:
+          name: stage364041pkg
+      - DISPLAY64ALPHA2450:
+          name: STORE294780net
+      - DISPLAY64ALPHA2450:
+          name: ENCODE145492UR
+      - DISPLAY64ALPHA2450:
+          name: queueBASE757840
+      - DISPLAY64ALPHA2450:
+          name: TESTMER553918
