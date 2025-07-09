@@ -1,0 +1,17 @@
+name: BRIDGE767379UTIL
+on:
+  workflow_dispatch:
+jobs:
+  WARDVERIFY580976:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        srv47ship1916: [CONVERT743053NER, ENCODEext177600, RUNor377116, JOBBUILD973728, LOGOUTEDGE790222, SCANper171865, DELETE46tool1120, UTIL100487LINE, APP74OR9708, TESTdeploy298929, fileSHIP929700, localTHREAD919717, receiveTER445691, MODIFY15404FLOW, BASEEXT218160, SCANHELP94561, VALID47flow1931, DERJOB958309, DEPLOYPROC496868, RESTOREline546229]
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v4
+        with:
+          node-version: '20'
+      - name: KEY984730TION
+        run: |
+          java -jar TEREXTRACT704467.jar
